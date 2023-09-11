@@ -1,17 +1,37 @@
 .header{
     background-color: CornflowerBlue;
-    text-align: center;
-    
+    display: flex;
+    align-items: center;
+    width: 1200px;
   }
   
   .about-me{
     font-size: 20px;
     opacity: 0.5;
+    text-align: left;
+    flex-grow: 1;
+    width: 75%;
+  }
+
+  img{
+    margin-right: 20px;
+    max-width: 50%;
+  }
+
+  h1{
+    margin-right: 20px;
+    
+  }
+
+
+  h1 + p.about-me {
+     display: inline-block; 
   }
   
   .title{
-    font-weight: bold;
+    font-weight: Georgia;
     color: ColorName;
+    background-repeat: repeat;
   }
   
   body{
